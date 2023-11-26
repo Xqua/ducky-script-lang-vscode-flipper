@@ -1,7 +1,7 @@
 {
     "publisher": "Xqua",
     "name": "ducky-script-lang-vscode-flipper",
-    "displayName": "Ducky Script Language - Flipper Zero mods - for VSCode",
+    "displayName": "Flipper Zero - Ducky Script Language",
     "description": "A simple syntax highlighting extension to enable support of Ducky Script as supported by the Flipper Zero. (forked from cvbenur)",
     "version": "1.0.8",
     "icon": "img/icon.png",
