@@ -112,6 +112,10 @@ https://github.com/cvbenur/ducky-scripts-and-payloads
 
 ## Releases
 
+### 1.0.7 - Nov, 2023
+
+Added highligths for F keys
+
 ### 1.0.6 - Nov, 2023
 
 Added the Flipper Zero mods
