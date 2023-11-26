@@ -1,13 +1,13 @@
 {
-    "publisher": "cvbenur",
-    "name": "ducky-script-lang-vscode",
-    "displayName": "Ducky Script Language for VSCode",
-    "description": "A simple syntax highlighting extension to enable support of Ducky Script.",
+    "publisher": "cvbenur - Xqua",
+    "name": "ducky-script-lang-vscode-flipper",
+    "displayName": "Ducky Script Language - Flipper Zero mods - for VSCode",
+    "description": "A simple syntax highlighting extension to enable support of Ducky Script as supported by the Flipper Zero. (forked from cvbenur)",
     "version": "1.0.5",
     "icon": "img/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/cvbenur/ducky-script-lang-vscode"
+        "url": "https://github.com/Xqua/ducky-script-lang-vscode-flipper/"
     },
     "engines": {
         "vscode": "^1.42.0"

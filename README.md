@@ -1,6 +1,6 @@
 # Ducky Script Language for VSCode
 
-This extension enables syntax highlighting for the **Ducky Script** scripting language, allowing for easier and more efficient scripting.
+This extension enables syntax highlighting for the **Ducky Script** scripting language with the **Flipper Zero** mods added, allowing for easier and more efficient scripting.
 <br>
 
 ## Features
@@ -10,6 +10,7 @@ This extension works with **.txt files**.
 Syntax detection features :
 *   Detection and highlighting for **comment lines** (`REM` lines),
 *   Detection and highlighting for **control keys** (`ENTER`, `ESC`, `GUI`, `ALT`, `CTRL` and so on  -- detailed list below),
+*   Detection and highlighting for **flipper added control keys** (`CTRL-ALT`, `CTRL-SHIFT`, `ALT-SHIFT`, `ALT-GUI`, `GUI-SHIFT` and so on  -- detailed list below),
 *   Detection and highlighting for **timer commands** (`DELAY`, `DEFAULTDELAY`, `REPEAT` and so on -- detailed list below),
 *   Detection and highlighting for **strings** (`STRING` lines).
 
@@ -49,7 +50,45 @@ Detailed list of supported commands :
 | `SCROLLLOCK`                      | Key      | Detects a keyboard key                  |
 | `SPACE`                           | Key      | Detects a keyboard key                  |
 | `TAB`                             | Key      | Detects a keyboard key                  |
+| `CTRL-ALT`                        | Key      | Detects a keyboard key                  |
+| `CTRL-SHIFT`                      | Key      | Detects a keyboard key                  |
+| `ALT-SHIFT`                       | Key      | Detects a keyboard key                  |
+| `ALT-GUI`                         | Key      | Detects a keyboard key                  |
+| `GUI-SHIFT`                       | Key      | Detects a keyboard key                  |
+| `ALTCHAR`                         | Key      | ALT+Numpad input                        |
+| `ALTSTRING`                       | Key      | ALT+Numpad input                        |
+| `ALTCODE`                         | Key      | ALT+Numpad input                        |
+| `SYSRQ`                           | Key      | Detects a keyboard key                  |
 
+## Flipper mods
+
+Below you can find the commands Flipper Zero can execute in addition to the Rubber Ducky Scripting Language 1.0 syntax.
+
+### Modifier keys
+
+|   Command       |   Notes      |
+|   `CTRL-ALT`    |   CTRL+ALT   |
+|   `CTRL-SHIFT`  |   CTRL+SHIFT |
+|   `ALT-SHIFT`   |   ALT+SHIFT  |
+|   `ALT-GUI`     |   ALT+WIN    |
+|   `GUI-SHIFT`   |   WIN+SHIFT  |
+
+### ALT+Numpad input
+
+On Windows, you can input characters by pressing the ALT key and entering its code on the Numpad.
+
+|   Command       |   Parameters      |   Notes                                                              |
+|   `ALTCHAR`     |   Character code  |   Print single character                                             |
+|   `ALTSTRING`   |   Text string     |   Print text string using ALT+Numpad method                          |
+|   `ALTCODE`     |   Text string     |   Same as ALTSTRING, presented in some Ducky Script implementations  |
+
+
+### Magic SysRq key
+
+On Linux, you can execute commands using the Magic SysRq Key.
+
+|   Command     |   Parameters        |
+|   `SYSRQ`     |   Single character  |
 
 <br>
 
@@ -69,6 +108,10 @@ https://github.com/cvbenur/ducky-scripts-and-payloads
 <br>
 
 ## Releases
+
+### 1.0.6 - Nov, 2023
+
+Added the Flipper Zero mods
 
 ### 1.0.5 - March 7th, 2020
 
