@@ -3,7 +3,7 @@
     "name": "ducky-script-lang-vscode-flipper",
     "displayName": "Ducky Script Language - Flipper Zero mods - for VSCode",
     "description": "A simple syntax highlighting extension to enable support of Ducky Script as supported by the Flipper Zero. (forked from cvbenur)",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "icon": "img/icon.png",
     "repository": {
         "type": "git",
