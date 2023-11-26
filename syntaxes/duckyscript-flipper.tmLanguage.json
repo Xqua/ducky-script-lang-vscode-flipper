@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"scopeName": "source.duckyscript",
+	"scopeName": "source.duckyscript-flipper",
 	"name": "Ducky Script",
 	"patterns": [
 		{
@@ -22,34 +22,34 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.duckyscript",
-				"match": "^((GUI|WINDOWS|APP|MENU|SHIFT|ALT|CONTROL|CTRL|CTRL-ALT|CTRL-SHIFT|ALT-SHIFT|ALT-GUI|GUI-SHIFT|ALTCHAR|ALTSTRING|ALTCODE|SYSRQ|DOWNARROW|DOWN|UPARROW|UP|LEFTARROW|LEFT|RIGHTARROW|RIGHT|BREAK|PAUSE|CAPSLOCK|DELETE|END|ENTER|ESCAPE|ESC|HOME|INSERT|NUMLOCK|PAGEUP|PAGEDOWN|PRINTSCREEN|SCROLLLOCK|SPACE|TAB)\\s?)((([A-Z]|[a-z]|(GUI|WINDOWS|APP|MENU|SHIFT|ALT|CONTROL|CTRL|CTRL-ALT|CTRL-SHIFT|ALT-SHIFT|ALT-GUI|GUI-SHIFT|ALTCHAR|ALTSTRING|ALTCODE|SYSRQ|DOWNARROW|DOWN|UPARROW|UP|LEFTARROW|LEFT|RIGHTARROW|RIGHT|BREAK|PAUSE|CAPSLOCK|DELETE|END|ENTER|ESCAPE|ESC|HOME|INSERT|NUMLOCK|PAGEUP|PAGEDOWN|PRINTSCREEN|SCROLLLOCK|SPACE|TAB))\\s)*)?"
+				"name": "keyword.control.duckyscript-flipper",
+				"match": "^((CTRL-ALT|CTRL-SHIFT|ALT-SHIFT|ALT-GUI|GUI-SHIFT|GUI|WINDOWS|APP|MENU|SHIFT|ALT|CONTROL|CTRL|ALTCHAR|ALTSTRING|ALTCODE|SYSRQ|DOWNARROW|DOWN|UPARROW|UP|LEFTARROW|LEFT|RIGHTARROW|RIGHT|BREAK|PAUSE|CAPSLOCK|DELETE|END|ENTER|ESCAPE|ESC|HOME|INSERT|NUMLOCK|PAGEUP|PAGEDOWN|PRINTSCREEN|SCROLLLOCK|SPACE|TAB)\\s?)((([A-Z-]|[a-z-]|(CTRL-ALT|CTRL-SHIFT|ALT-SHIFT|ALT-GUI|GUI-SHIFT|GUI|WINDOWS|APP|MENU|SHIFT|ALT|CONTROL|CTRL|ALTCHAR|ALTSTRING|ALTCODE|SYSRQ|DOWNARROW|DOWN|UPARROW|UP|LEFTARROW|LEFT|RIGHTARROW|RIGHT|BREAK|PAUSE|CAPSLOCK|DELETE|END|ENTER|ESCAPE|ESC|HOME|INSERT|NUMLOCK|PAGEUP|PAGEDOWN|PRINTSCREEN|SCROLLLOCK|SPACE|TAB))\\s)*)?"
 				}]
 		},
 		"comment": {
-			"name": "comment.line.duckyscript",
+			"name": "comment.line.duckyscript-flipper",
 			"begin": "^REM\\s",
 			"end": "$"
 		},
 		"variable": {
 			"patterns": [{
-				"name": "keyword.variable.duckyscript",
+				"name": "keyword.variable.duckyscript-flipper",
 				"match": "^(DELAY|DEFAULT_DELAY|DEFAULTDELAY|REPEAT|STRING)\\s"
 			}]
 		},
 		"string": {
-			"name": "string.duckyscript",
+			"name": "string.duckyscript-flipper",
 			"begin": "(?<=STRING\\s).*",
 			"end": "$",
 			"patterns": [
 				{
-					"name": "constant.character.escape.duckyscript",
+					"name": "constant.character.escape.duckyscript-flipper",
 					"match": "\\\\."
 				}
 			]
 		},
 		"number": {
-			"name": "constant.numeric.duckyscript",
+			"name": "constant.numeric.duckyscript-flipper",
 			"match" : "[0-9]*(\\.[0-9]*)?"
 		}
 	}
