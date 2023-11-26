@@ -18,10 +18,10 @@
     "contributes": {
         "languages": [
             {
-                "id": "duckyscript",
+                "id": "duckyscript-flipper",
                 "aliases": [
-                    "Ducky Script",
-                    "duckyscript"
+                    "Ducky Script Flipper Zero",
+                    "duckyscript-flipper"
                 ],
                 "extensions": [
                     ".txt"
@@ -31,9 +31,9 @@
         ],
         "grammars": [
             {
-                "language": "duckyscript",
-                "scopeName": "source.duckyscript",
-                "path": "./syntaxes/duckyscript.tmLanguage.json"
+                "language": "duckyscript-flipper",
+                "scopeName": "source.duckyscript-flipper",
+                "path": "./syntaxes/duckyscript-flipper.tmLanguage.json"
             }
         ]
     }
