@@ -66,29 +66,32 @@ Below you can find the commands Flipper Zero can execute in addition to the Rubb
 
 ### Modifier keys
 
-|   Command       |   Notes      |
-|   `CTRL-ALT`    |   CTRL+ALT   |
-|   `CTRL-SHIFT`  |   CTRL+SHIFT |
-|   `ALT-SHIFT`   |   ALT+SHIFT  |
-|   `ALT-GUI`     |   ALT+WIN    |
-|   `GUI-SHIFT`   |   WIN+SHIFT  |
+| Command       | Notes      |
+| ------------- | ---------- |
+| `CTRL-ALT`    | CTRL+ALT   |
+| `CTRL-SHIFT`  | CTRL+SHIFT |
+| `ALT-SHIFT`   | ALT+SHIFT  |
+| `ALT-GUI`     | ALT+WIN    |
+| `GUI-SHIFT`   | WIN+SHIFT  |
 
 ### ALT+Numpad input
 
 On Windows, you can input characters by pressing the ALT key and entering its code on the Numpad.
 
-|   Command       |   Parameters      |   Notes                                                              |
-|   `ALTCHAR`     |   Character code  |   Print single character                                             |
-|   `ALTSTRING`   |   Text string     |   Print text string using ALT+Numpad method                          |
-|   `ALTCODE`     |   Text string     |   Same as ALTSTRING, presented in some Ducky Script implementations  |
+| Command       | Parameters      | Notes                                                              |
+| ------------- | :-------------: | ------------------------------------------------------------------ |
+| `ALTCHAR`     | Character code  | Print single character                                             |
+| `ALTSTRING`   | Text string     | Print text string using ALT+Numpad method                          |
+| `ALTCODE`     | Text string     | Same as ALTSTRING, presented in some Ducky Script implementations  |
 
 
 ### Magic SysRq key
 
 On Linux, you can execute commands using the Magic SysRq Key.
 
-|   Command     |   Parameters        |
-|   `SYSRQ`     |   Single character  |
+| Command     | Parameters        |
+| ----------- | ----------------- |
+| `SYSRQ`     | Single character  |
 
 <br>
 
